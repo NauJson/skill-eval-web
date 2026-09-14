@@ -1,0 +1,6 @@
+id,should_trigger,prompt,tags
+test-01,true,"Create a demo app named `devday-demo` using the $setup-demo-app skill",explicit
+test-02,true,"Set up a minimal React demo app with Tailwind for quick UI experiments",implicit
+test-03,true,"Create a small demo app to showcase the Responses API",contextual
+test-04,false,"Add Tailwind styling to my existing React app",negative
+test-05,true,"Use $setup-demo-app to scaffold a clean Vite React TypeScript project",explicit
